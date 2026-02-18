@@ -1,79 +1,215 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais - FinChat Lovable - PapaiTiago
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
-
-## ✨ O que é Vibe Coding
-
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
-
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
-
-## 🎯 Desafio
-
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
-
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
-
-## 🪄 Etapas do Desafio
-
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
-
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
-
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
-
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
-
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
-
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
-
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+- PRD Refinado no ChatGPT
 ```
+Crie um app de Finanças Pessoais com base no seguinte PRD: PRD COMPLETO - APP DE FINANCAS PESSOAIS POR CONVERSA (COM DESIGN UNIVERSAL) Produto (nome provisório): FinChat Versao: MVP v1 Plataforma: Mobile-first (funciona bem no celular) Idioma: Portugues (Brasil) Moeda: BRL (R$) Observacao: Nao e aconselhamento financeiro. Foco em organizacao, habitos e educacao financeira.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+RESUMO DO PRODUTO FinChat e um app simples de financas pessoais que permite registrar gastos e receitas em linguagem natural (chat), classificar automaticamente, acompanhar metas e ver resumos claros. O diferencial e reduzir burocracia: em vez de formularios e planilhas, o app funciona como uma conversa rapida com confirmacoes e botoes de acao (chips).
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+PROBLEMA E OPORTUNIDADE Problema:
 
-### 2. Explorando o Lovable na Prática
+Apps exigem muita digitacao, muitos campos e telas complexas.
+Usuarios iniciantes desistem cedo por friccao e falta de personalizacao. Oportunidade:
+Chat + chips reduzem atrito, criam habito e entregam valor rapido (primeiro registro + primeiro resumo).
+OBJETIVOS DO MVP Objetivos:
+Valor em 5 minutos: registrar 1 transacao e ver um resumo simples.
+Registro sem esforco: linguagem natural + chips + confirmacao curta.
+Confianca: quando houver duvida, o app pergunta; corrigir e facil (1 toque).
+Acessibilidade (Design Universal): utilizavel por pessoas com diferentes habilidades e contextos. Nao-objetivos (fora do MVP):
+Integracao bancaria/Open Finance.
+Investimentos, planejamento avancado e dividas complexas.
+Relatorios avancados/dashboards pesados.
+IA sofisticada alem do necessario (priorizar utilidade e clareza).
+PUBLICO-ALVO E PERSONAS Publico-alvo:
+Iniciantes que querem organizacao pratica e sem complicacao. Personas:
+Comecando agora: quer entender para onde vai o dinheiro; pouca paciencia para configuracao.
+Rotina corrida: quer registrar em 10-20 segundos; valoriza atalhos e repeticao. Necessidades de acessibilidade (transversais):
+Baixa visao: fonte maior e alto contraste.
+Limitacao motora: alvos grandes e poucos toques.
+TDAH/ansiedade: previsibilidade e pouco ruido.
+Baixa alfabetizacao digital: orientacao simples e estados vazios didaticos.
+DESIGN UNIVERSAL (REQUISITOS) Principios aplicados:
+Uso equitativo: funcionalidades importantes funcionam por texto e por chips.
+Flexibilidade: registrar por texto; corrigir por toque; revisar no historico.
+Simplicidade: poucos passos, microcopy curto, telas previsiveis.
+Informacao perceptivel: contraste, hierarquia visual, suporte a leitor de tela.
+Tolerancia a erro: confirmacoes, desfazer, editar facil, validacoes amigaveis.
+Baixo esforco: alvos grandes, poucos campos, evitar digitacao longa.
+Espaco adequado: layout arejado, sem elementos pequenos. Acessibilidade minima do MVP:
+Suporte ao tamanho de fonte do sistema e layout responsivo.
+Contraste adequado entre texto e fundo.
+Alvos de toque grandes (chips/botoes confortaveis).
+Compatibilidade com leitores de tela (rotulos/aria-labels).
+Ordem logica de foco na navegacao.
+Mensagens de erro claras e recuperaveis.
+Nao depender apenas de cor para indicar estados (usar texto/icone).
+Evitar animacoes excessivas; respeitar reduzir movimento (se possivel).
+ESCOPO FUNCIONAL (PRIORIDADES) P0 (obrigatorio):
+Chat para registrar gasto/receita em linguagem natural.
+Confirmacao do entendimento (valor, categoria, data).
+Categorizacao automatica simples + pergunta quando incerto.
+Historico de transacoes (listar, editar, excluir).
+Resumo simples do mes (gastos, receitas, saldo simples, top categorias).
+Metas simples (criar, ver progresso, atualizar manualmente no MVP).
+Configuracoes basicas (categorias ativas, frequencia de dicas, privacidade).
+Estados vazios e onboarding leve (ensinar o primeiro passo). P1 (importante):
+Sugestoes de transacoes recorrentes (atalhos).
+Exportacao de dados (CSV simples).
+Lembrete gentil (opt-in). P2 (futuro):
+Voz/ditado e foto de recibo.
+Orcamento por categoria (limites).
+Integracao bancaria.
+Insights avancados e previsoes.
+JORNADAS (FLUXOS PRINCIPAIS) Fluxo A - Primeiro dia (ativacao em 5 min):
+Boas-vindas -> escolher objetivo (ex: controlar gastos)
+Chat mostra exemplos + chip "Registrar gasto"
+Usuario envia "Gastei 35 no almoco"
+App confirma e salva
+App mostra "Resumo do mes" (cards) + 1 dica curta Fluxo B - Rotina:
+Usuario digita gasto/receita
+App categoriza e confirma
+Se duvida: pergunta categoria sugerida com botoes Sim/Nao
+Atualiza resumo Fluxo C - Meta:
+Usuario "Quero juntar R$ 1000"
+App pergunta prazo (opcional)
+Cria meta + mostra progresso
+Sugere acao simples (educativa, sem impor)
+TELAS DO MVP (6 TELAS) Tela 1 - Boas-vindas/Onboarding leve Objetivo: levar ao primeiro registro sem friccao Componentes:
+Titulo curto
+2-3 perguntas por chips (ex: controlar gastos / gastos+receitas)
+Toggle "Receber dicas?" com explicacao
+Botao "Comecar" Estado vazio: exemplos de mensagens Acessibilidade: texto grande, leitura por leitor de tela, linguagem simples
+Tela 2 - Chat (nucleo) Objetivo: registrar e orientar Componentes:
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+Campo de mensagem
+Chips: Registrar gasto, Registrar receita, Ver resumo, Criar meta
+Bolhas de conversa com confirmacoes Estados:
+Sem dados: exemplos + sugestoes
+Erro: mensagem clara + botao tentar novamente Acessibilidade: foco no input, rotulos claros, mensagens curtas
+Tela 3 - Transacoes (historico) Objetivo: revisar e corrigir facilmente Componentes:
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+Lista por data
+Filtros simples (mes, categoria)
+Acoes: editar, excluir Acessibilidade: botoes grandes, confirmacao de exclusao com desfazer
+Tela 4 - Metas Objetivo: acompanhar progresso Componentes:
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+Cards de metas (alvo, atual, progresso)
+Botao "Nova meta" Acessibilidade: progresso tambem em texto (nao so por cor)
+Tela 5 - Resumo (relatorios simples) Objetivo: clareza rapida Componentes (cards):
 
-### 3. Entregando o Desafio na DIO
+Gastos do mes
+Receitas do mes
+Saldo simples
+Top categorias Acessibilidade: numeros bem formatados, evitar graficos complexos no MVP
+Tela 6 - Configuracoes Objetivo: controle e confianca Componentes:
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Frequencia de dicas / desligar
+Categorias ativas (toggles)
+Privacidade: exportar dados / apagar dados Acessibilidade: descricoes curtas e objetivas
+UX DE CONVERSA (ESPECIFICACAO) Intencoes P0 (intents):
+Registrar gasto
+Registrar receita
+Ver resumo
+Ver historico
+Criar meta
+Corrigir categoria/valor/data
+Ajuda (como registrar) Entidades P0:
+valor, data, categoria, descricao, tipo Padrao de resposta do app:
+Confirmar entendimento em 1-2 linhas
+Se duvida: perguntar com botoes
+Finalizar com acao rapida (Ver resumo, Editar) Exemplo: Usuario: "paguei 47 na farmacia" App: "Anotei R$ 47 em Saude (hoje). Confirma?" [Sim] [Trocar categoria]
+AGENTE FINANCEIRO (DICAS) Tom:
+Educativo, neutro, sem culpa e sem julgamento Regras:
+Dicas curtas e acionaveis
+Sempre opcao de dispensar ("nao agora")
+Evitar "voce deveria"; preferir "uma ideia e" Gatilhos simples (MVP):
+Categoria acima do padrao da semana
+Meta parada
+Sem registros por 3 dias (apenas se opt-in) Frequencia:
+Maximo 1 dica por dia no MVP
+CATEGORIZACAO AUTOMATICA (MVP) Categorias iniciais (8-10):
+Alimentacao
+Mercado
+Transporte
+Moradia
+Contas (agua/luz/internet)
+Saude
+Lazer
+Educacao
+Roupas/Compras
+Outros Regras:
+Palavras-chave (ex: uber -> Transporte; farmacia -> Saude)
+Estabelecimentos comuns (se digitados)
+Se confianca baixa: perguntar confirmacao Aprendizado com correcoes:
+Se usuario trocar categoria, salvar preferencia para aquele termo/estabelecimento
+REQUISITOS FUNCIONAIS (RF) E CRITERIOS RF-01 Registrar transacao via chat
+Aceitar texto natural com valor + descricao (+ data opcional) Criterios:
+"Gastei 35 no almoco" salva gasto 35, categoria Alimentacao, data=hoje
+Se faltar valor: perguntar "Qual foi o valor?" RF-02 Confirmar quando houver incerteza
+Se confianca < limiar, perguntar categoria com botoes RF-03 Editar/Excluir transacao
+Editar valor, categoria, data, descricao
+Excluir com opcao desfazer RF-04 Resumo mensal
+Mostrar total gastos, total receitas, saldo simples e top categorias RF-05 Metas
+Criar (nome, valor alvo, prazo opcional)
+Atualizar valor atual (manual no MVP)
+Mostrar progresso RF-06 Dicas do agente
+Gatilhos simples, opt-in, max 1/dia
+MODELO DE DADOS (MINIMO) Transaction:
+id, type (expense/income), amount, date (ISO), categoryId, description, confidence, createdAt, updatedAt Category:
+id, name, keywords (lista), isActive Goal:
+id, title, targetAmount, currentAmount, dueDate (opcional), createdAt UserPrefs:
+currency (BRL), tipsEnabled, tipsFrequency, accessibilityPrefs (opcional)
+REQUISITOS NAO-FUNCIONAIS Desempenho:
+Resposta rapida ao salvar e ao abrir resumo Confiabilidade:
+Mensagens claras em falhas + tentar novamente Privacidade:
+Minimizar dados coletados
+Exportar/apagar dados Acessibilidade:
+Fonte do sistema, contraste, leitor de tela, foco, alvos grandes, erros recuperaveis
+METRICAS E ANALYTICS Metricas:
+Ativacao: registrou 1a transacao no D0
+Aha: viu Resumo apos registrar
+Retencao: registrou em 3 dias diferentes na semana 1
+Confianca: taxa de correcao de categoria (deve cair com o tempo)
+Engajamento util: transacoes por semana Eventos (exemplos):
+onboarding_completed
+transaction_created (type, category, confidence)
+transaction_corrected
+summary_viewed
+goal_created
+tip_shown / tip_dismissed
+VALIDACAO INICIAL (2 SEMANAS) Hipoteses:
+Usuario registra em ate 20s sem frustracao
+Resumo simples aumenta valor percebido
+Confirmacao aumenta confianca Testes:
+Usabilidade com 5-8 iniciantes
+Concierge MVP (simular agente por 3 dias com 3-5 pessoas)
+Protótipo funcional medindo tempo e correcoes Criterios de sucesso (exemplo):
+Ativacao >= 60%
+Aha >= 40%
+Tempo medio de registro <= 20s apos aprender 1 vez
+ROADMAP SUGERIDO (6-8 SEMANAS) Semana 1: telas base + navegacao + onboarding Semana 2: chat + criar transacoes Semana 3: historico + editar/excluir + estados vazios Semana 4: resumo mensal + regras simples de categoria Semana 5: metas Semana 6: dicas do agente + preferencias + privacidade Semana 7-8: testes com usuarios + ajustes de acessibilidade + refinamento
 
-- Seu **prompt final** (PRD);  
+RISCOS E MITIGACAO
+
+Interpretacao errada: confirmar quando incerto; editar facil; desfazer
+Falta de habito: chips + retorno imediato (resumo apos salvar) + lembrete opt-in
+Escopo crescendo: manter IN/OUT firme; so adicionar apos validacao
+Acessibilidade esquecida: checklist por tela + teste com leitor de tela
+DEFINICAO DE PRONTO (DoD)
+Registrar gasto/receita via chat com confirmacao
+Editar/excluir no historico com desfazer
+Resumo mensal por cards funcionando
+Metas criadas e exibidas
+Dicas configuraveis e nao invasivas
+Checklist de acessibilidade aplicado (fonte, contraste, leitor de tela, alvos grandes, erros claros)
+```
+Iterações com o Lovable
+1 PRD Completo
+2 "Eu escrevi o seguinte: "recebi 12 mil de salario" como receita. O chat me retornou pedindo para categorizar entre: alimentação, mercado, transporte ou moradia. 1 - não é despesa e sim receita, então reveja esta questao. Tamém o sistema entendu ser R$ 12,00, quando 12 mil é R$ 12.000,00. Ajuste isso."
+3 "Escrevi: "Gastei 112,00 de gas. 160,00 de mercado e 75,00 de mercado" e ele me retornou: "Anotei: gasto de R$ 112,00 em Mercado (hoje). Confirma?". Ocorre que eu informei 3 despesas e ele leu somente uma. Ajuste e faça isso também nas receitas, para que ele aceita multiplas informações em 1 linha."
+4 Publicação no Link: https://finchatpapaitiago.lovable.app/
+
+
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
