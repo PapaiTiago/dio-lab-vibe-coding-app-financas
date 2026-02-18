@@ -210,8 +210,14 @@ Checklist de acessibilidade aplicado (fonte, contraste, leitor de tela, alvos gr
   - Publicação no Link: https://finchatpapaitiago.lovable.app/;
 
 
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
+- Prints do resultado do App publicado com auxilio de IA (ChatGPT e Lovable);
+  - Resultado página inicial: <img width="1365" height="606" alt="image" src="https://github.com/user-attachments/assets/fbe6cf89-8449-401f-9db4-a5ea23051e4d" />
+  - Resultado página 2: <img width="1360" height="604" alt="image" src="https://github.com/user-attachments/assets/356a7b07-f13b-4855-9aba-c2f912f3d968" />
+  - Resultado página 3: <img width="1360" height="606" alt="image" src="https://github.com/user-attachments/assets/5f119dd4-9463-4135-826e-153db78169ba" />
+  - Resultado página 4: <img width="1351" height="601" alt="image" src="https://github.com/user-attachments/assets/59f67062-1d60-4228-b79d-82f677f3acb7" />
+  
+- Um resumo do que **App FinChat** faz;
+  -    
 - Uma breve **reflexão sobre o processo**:
   - O que funcionou bem?  
   - O que não funcionou como o esperado?  
