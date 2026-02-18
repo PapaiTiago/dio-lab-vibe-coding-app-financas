@@ -1,7 +1,7 @@
 # 💸 App de Organização de Finanças Pessoais - FinChat Lovable - PapaiTiago
 
 - PRD Refinado no ChatGPT
-```
+```text
 Crie um app de Finanças Pessoais com base no seguinte PRD: PRD COMPLETO - APP DE FINANCAS PESSOAIS POR CONVERSA (COM DESIGN UNIVERSAL) Produto (nome provisório): FinChat Versao: MVP v1 Plataforma: Mobile-first (funciona bem no celular) Idioma: Portugues (Brasil) Moeda: BRL (R$) Observacao: Nao e aconselhamento financeiro. Foco em organizacao, habitos e educacao financeira.
 
 RESUMO DO PRODUTO FinChat e um app simples de financas pessoais que permite registrar gastos e receitas em linguagem natural (chat), classificar automaticamente, acompanhar metas e ver resumos claros. O diferencial e reduzir burocracia: em vez de formularios e planilhas, o app funciona como uma conversa rapida com confirmacoes e botoes de acao (chips).
@@ -203,21 +203,22 @@ Metas criadas e exibidas
 Dicas configuraveis e nao invasivas
 Checklist de acessibilidade aplicado (fonte, contraste, leitor de tela, alvos grandes, erros claros)
 ```
+
 - Iterações com o Lovable;
   - PRD Completo;
-  - "Eu escrevi o seguinte: "recebi 12 mil de salario" como receita. O chat me retornou pedindo para categorizar entre: alimentação, mercado, transporte ou moradia. 1 - não é despesa e sim receita, então reveja esta questao. Tamém o sistema entendu ser R$ 12,00, quando 12 mil é R$ 12.000,00. Ajuste isso.";
-  - "Escrevi: "Gastei 112,00 de gas. 160,00 de mercado e 75,00 de mercado" e ele me retornou: "Anotei: gasto de R$ 112,00 em Mercado (hoje). Confirma?". Ocorre que eu informei 3 despesas e ele leu somente uma. Ajuste e faça isso também nas receitas, para que ele aceita multiplas informações em 1 linha.";
+  - "Eu escrevi o seguinte: "recebi 12 mil de salario" como receita. O chat me retornou pedindo para categorizar entre: alimentação, mercado, transporte ou moradia. 1 - não é despesa e sim receita, então reveja esta questao. Também o sistema entendeu ser R$ 12,00, quando 12 mil é R$ 12.000,00. Ajuste isso.";
+  - "Escrevi: "Gastei 112,00 de gás. 160,00 de mercado e 75,00 de mercado" e ele me retornou: "Anotei: gasto de R$ 112,00 em Mercado (hoje). Confirma?". Ocorre que eu informei 3 despesas e ele leu somente uma. Ajuste e faça isso também nas receitas, para que ele aceita multiplas informações em 1 linha.";
   - Publicação no Link: https://finchatpapaitiago.lovable.app/;
-
 
 - Prints do resultado do App publicado com auxilio de IA (ChatGPT e Lovable);
   - Resultado página inicial: <img width="1365" height="606" alt="image" src="https://github.com/user-attachments/assets/fbe6cf89-8449-401f-9db4-a5ea23051e4d" />
   - Resultado página 2: <img width="1360" height="604" alt="image" src="https://github.com/user-attachments/assets/356a7b07-f13b-4855-9aba-c2f912f3d968" />
   - Resultado página 3: <img width="1360" height="606" alt="image" src="https://github.com/user-attachments/assets/5f119dd4-9463-4135-826e-153db78169ba" />
   - Resultado página 4: <img width="1351" height="601" alt="image" src="https://github.com/user-attachments/assets/59f67062-1d60-4228-b79d-82f677f3acb7" />
-  
+
 - Um resumo do que **App FinChat** faz;
- # 💬 FinChat
+
+# 💬 FinChat
 
 O **FinChat** é um aplicativo de controle financeiro com uma proposta inovadora: transformar a gestão das suas finanças em uma experiência de conversa simples e intuitiva.
 
@@ -248,21 +249,16 @@ O FinChat foi criado para tornar o **controle financeiro mais humano e natural**
 ---
 
 Feito com ❤️ por Tiago
+
 - Uma breve **reflexão sobre o processo**:
   - O que funcionou bem?
-    -  A interação com a IA, que direcionou o projeto para o lado que realmente eu queria;
-    -  O resultado do Lovable, que, mesmo com créditos limitados, conseguiu gerar uma versão utilizável e com poucos bug´s.  
+    - A interação com a IA, que direcionou o projeto para o lado que realmente eu queria;
+    - O resultado do Lovable, que, mesmo com créditos limitados, conseguiu gerar uma versão utilizável e com poucos bug´s.  
   - O que não funcionou como o esperado?
-    -  O limite do Lovable, deixa o app pronto até certo ponto;
-    -  Talvez, utilizando uma versão paga, ou outro App, poderia deixar o App ainda melhor, mas isto deve acontecer com o tempo.
+    - O limite do Lovable, deixa o app pronto até certo ponto;
+    - Talvez, utilizando uma versão paga, ou outro App, poderia deixar o App ainda melhor, mas isto deve acontecer com o tempo.
   - O que aprendeu sobre conversar com IAs?
-    -  Elas são objetivas, e respondem aos comandos;
-    -  Elas conseguem "ver depois da curva", guiando o usuário pelo caminho;
-    -  Ela não substitui o humano, porém ela potencializa o resultado;
+    - Elas são objetivas, e respondem aos comandos;
+    - Elas conseguem "ver depois da curva", guiando o usuário pelo caminho;
+    - Elas não substituem o humano, porém elas potencializam o resultado;
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
-
-## 💬 Conclusão
-
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
