@@ -203,11 +203,11 @@ Metas criadas e exibidas
 Dicas configuraveis e nao invasivas
 Checklist de acessibilidade aplicado (fonte, contraste, leitor de tela, alvos grandes, erros claros)
 ```
-Iterações com o Lovable
-1 PRD Completo
-2 "Eu escrevi o seguinte: "recebi 12 mil de salario" como receita. O chat me retornou pedindo para categorizar entre: alimentação, mercado, transporte ou moradia. 1 - não é despesa e sim receita, então reveja esta questao. Tamém o sistema entendu ser R$ 12,00, quando 12 mil é R$ 12.000,00. Ajuste isso."
-3 "Escrevi: "Gastei 112,00 de gas. 160,00 de mercado e 75,00 de mercado" e ele me retornou: "Anotei: gasto de R$ 112,00 em Mercado (hoje). Confirma?". Ocorre que eu informei 3 despesas e ele leu somente uma. Ajuste e faça isso também nas receitas, para que ele aceita multiplas informações em 1 linha."
-4 Publicação no Link: https://finchatpapaitiago.lovable.app/
+Iterações com o Lovable;
+1 PRD Completo;
+2 "Eu escrevi o seguinte: "recebi 12 mil de salario" como receita. O chat me retornou pedindo para categorizar entre: alimentação, mercado, transporte ou moradia. 1 - não é despesa e sim receita, então reveja esta questao. Tamém o sistema entendu ser R$ 12,00, quando 12 mil é R$ 12.000,00. Ajuste isso.";
+3 "Escrevi: "Gastei 112,00 de gas. 160,00 de mercado e 75,00 de mercado" e ele me retornou: "Anotei: gasto de R$ 112,00 em Mercado (hoje). Confirma?". Ocorre que eu informei 3 despesas e ele leu somente uma. Ajuste e faça isso também nas receitas, para que ele aceita multiplas informações em 1 linha.";
+4 Publicação no Link: https://finchatpapaitiago.lovable.app/;
 
 
 - Prints ou pequenos vídeos das interações com a IA;  
