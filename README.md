@@ -217,11 +217,48 @@ Checklist de acessibilidade aplicado (fonte, contraste, leitor de tela, alvos gr
   - Resultado página 4: <img width="1351" height="601" alt="image" src="https://github.com/user-attachments/assets/59f67062-1d60-4228-b79d-82f677f3acb7" />
   
 - Um resumo do que **App FinChat** faz;
-  -    
+ # 💬 FinChat
+
+O **FinChat** é um aplicativo de controle financeiro com uma proposta inovadora: transformar a gestão das suas finanças em uma experiência de conversa simples e intuitiva.
+
+## ✨ Funcionalidades
+
+- **Interface em formato de chat**  
+  Interaja com suas finanças como se estivesse conversando com alguém, sem a complexidade de planilhas ou dashboards tradicionais.
+
+- **Simplicidade e acessibilidade**  
+  Controle financeiro sem burocracia, pensado para quem busca praticidade no dia a dia.
+
+- **Acesso rápido**  
+  Um clique em **"Começar"** e você já inicia sua jornada financeira, sem configurações complicadas.
+
+- **Design minimalista**  
+  Interface limpa e objetiva, com foco total na experiência de conversa.
+
+## 🎯 Objetivo
+
+O FinChat foi criado para tornar o **controle financeiro mais humano e natural**, ajudando você a acompanhar gastos e metas de forma leve e contínua.
+
+## 🚀 Como usar
+
+1. Acesse o app: [FinChat](https://finchatpapaitiago.lovable.app/chat)  
+2. Clique em **Começar**  
+3. Converse com suas finanças e simplifique sua gestão!
+
+---
+
+Feito com ❤️ por Tiago
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+    -  A interação com a IA, que direcionou o projeto para o lado que realmente eu queria;
+    -  O resultado do Lovable, que, mesmo com créditos limitados, conseguiu gerar uma versão utilizável e com poucos bug´s.  
+  - O que não funcionou como o esperado?
+    -  O limite do Lovable, deixa o app pronto até certo ponto;
+    -  Talvez, utilizando uma versão paga, ou outro App, poderia deixar o App ainda melhor, mas isto deve acontecer com o tempo.
   - O que aprendeu sobre conversar com IAs?
+    -  Elas são objetivas, e respondem aos comandos;
+    -  Elas conseguem "ver depois da curva", guiando o usuário pelo caminho;
+    -  Ela não substitui o humano, porém ela potencializa o resultado;
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
